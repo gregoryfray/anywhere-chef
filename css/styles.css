@@ -1,0 +1,158 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: "Montserrat" !important;
+}
+#title h1{
+  font-family: 'Montserrat',sans-serif ;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  opacity: 0.5;
+}
+
+
+#title{
+  /* background-color: #C3C3C3; */
+  background: radial-gradient(black, transparent);
+  color: #fff;
+
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #393e46;
+  color: #fff;
+}
+#testimonials h2{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  line-height: 1.5;
+}
+#testimonials .headshot{
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+#press{
+  background-color: #393e46;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#press .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing h2{
+  text-align: center;
+  margin-top: 5%;
+}
+#pricing p{
+  text-align: center;
+}
+#pricing .pricing-title{
+  padding-bottom: 20px;
+}
+#cta{
+  background-image: url('https://images.unsplash.com/photo-1571805529673-0f56b922b359?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+  background-size: cover;
+  background-position: center;
+  padding: 10%;
+  text-align: center;
+}
+#cta h3{
+  background-color:rgba(0,0,0,0.3);
+  color: white;
+  border-radius: 20px;
+}
+.cta-text{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 40px;
+  /* padding-bottom: 30px; */
+
+}
+.cta-button{
+  margin:10px;
+}
+#footer{
+  text-align: center;
+  padding: 40px;
+}
+.footer-icon{
+  margin: 10px;
+  padding-bottom: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.feature-box{
+  text-align: center;
+  padding: 0 8%;
+}
+.feature-box h3{
+  font-weight: 900;
+}
+.feature-box p{
+  color: #8f8f8f;
+}
+ .icon{
+  color: #ea728c;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+ color:#ff4c68;
+ cursor: pointer;
+}
+.container-fluid{
+  padding:3% 12% 7% !important;
+}
+
+.chef-img{
+  width: 60%;
+  border-radius: 20px;
+  margin-left: 25%;
+  position: absolute;
+  left:6%;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem !important;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+/* Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+
+  }
+  .chef-img{
+    position: static;
+    margin-left: 0;
+  }
+}
+@media (min-width: 576px)
+.card-deck {
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
