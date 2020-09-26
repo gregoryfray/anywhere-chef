@@ -11,14 +11,16 @@ body{
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 
 #title{
   /* background-color: #C3C3C3; */
-  background: radial-gradient(black, transparent);
-  color: #fff;
+  background-image: url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80');
+  background-size: cover;
+  background-position: center;
+  color: #343a40;
 
 }
 #features{
